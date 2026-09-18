@@ -1,4 +1,4 @@
-@import "tailwindcss";
+@import 'tailwindcss';
 
 body {
   color: black;
@@ -53,5 +53,28 @@ footer {
 @layer utilities {
   .text-balance {
     text-wrap: balance;
+  }
+}
+
+/* Cards fade and lift into place when a section appears or a filter changes */
+@keyframes card-enter {
+  from {
+    opacity: 0;
+    transform: translateY(0.5rem);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.card-enter {
+  animation: card-enter 0.25s ease-out both;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .card-enter {
+    animation: none;
   }
 }
