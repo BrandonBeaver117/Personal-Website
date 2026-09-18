@@ -2,8 +2,6 @@
 
 import { useRouter } from 'next/navigation';
 import React, { useState, useEffect } from 'react';
-import AuthForm from '../components/authform';
-import Error from '../components/error';
 
 const Signup: React.FC = () => {
   // Initializing router

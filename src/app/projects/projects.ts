@@ -37,6 +37,11 @@ const PLACEHOLDER_HARDWARE: Project = {
     { category: 'Language', values: ['C++'] },
     { category: 'Skills', values: ['CAD', 'Embedded'] },
   ],
+  // Swap this for your own file in public/projects/, e.g. '/projects/robot.mp4' or '/projects/build.gif'
+  media: {
+    src: '/background-aurora.png',
+    alt: 'Placeholder standing in for a photo, gif, or clip of this build',
+  },
 };
 
 const PLACEHOLDER_AI: Project = {
