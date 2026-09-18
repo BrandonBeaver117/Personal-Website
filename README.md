@@ -1,27 +1,30 @@
-# LJL-Web-Demonstration
-Simple website to show the LJL team my fullstack skills!
-
-Check out the app at:
-
+# Brandon Nguyen's Portfolio website
+Check out the website at:
 https://ljl-web-demonstration.vercel.app/
 
 
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+
+
+If you'd like to contribute (...for some reason?), contribution steps are below
+
+
 
 ## Getting Started
 
-First, run the development server:
-
-```
-npm run dev
-```
+First, clone the repo and create a feature branch.
 
 Then, navigate to 
 
 ```
 src\app
 ```
-There, you have all the pages in the .tsx files, so start editing!
+There, you can edit all the pages!
+
+
+To see your changes, 
+```
+npm run dev
+```
 
 ## Deploying
 When you're finished with your changes, here's what you need to do to deploy:
